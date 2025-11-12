@@ -1,0 +1,154 @@
+
+/* ===================== STATS & FOOTER ===================== */
+.mysec {
+  background-color: #EBD8C3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.mysec > div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.mysec img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.mysec h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.mysec p {
+  margin: 0;
+  color: #555;
+}
+
+footer {
+  background-color: #4A2B14;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+
+/* ===================== SOCIAL MEDIA ===================== */
+.social-media {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.social-media > div {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.social-media img {
+  width: 25px;
+  height: 25px;
+}
+
+.social-media > div:hover {
+  background-color: #c4a06f;
+  transform: scale(1.1);
+}
+
+/* ===================== BUTTONS ===================== */
+button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.contactus,
+.register {
+  margin-top: 10%;
+  background-color: antiquewhite;
+  transition: 0.5s;
+  color: #4A2B14;
+}
+
+.contactus:hover,
+.register:hover {
+  background-color: #C97932;
+}
+
+footer {
+  background-color: #4A2B14;
+  display: flex;
+  justify-content: space-between; /* spread items evenly */
+  align-items: center;             /* vertically centered */
+  color: white;
+  font-family: 'Merriweather', serif;
+  padding: 20px 40px;
+}
+
+/* Text section */
+footer > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Social Media section */
+.social-media {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.social-media a {
+  color: white;              /* white icons */
+  font-size: 24px;           /* icon size */
+  transition: 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #C97932;            /* hover color */
+  transform: scale(1.2);
+}
+
+/* Buttons section */
+.buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+button {
+  border: none;
+  background-color: antiquewhite;
+  color: #4A2B14;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #C97932;
+  color: white;
+}
